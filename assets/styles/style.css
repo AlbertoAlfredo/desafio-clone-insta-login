@@ -1,0 +1,23 @@
+@import url("normalize.css");
+
+
+.base{
+    margin-top: 2vw;
+}
+.full-width{
+    width: 100%;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.flex-colum{
+    flex-direction: column;
+}
+.flex-item{
+    margin: 0 2vw;
+}
+.centralize{
+    align-items: center;
+    text-align: center;
+}
