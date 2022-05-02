@@ -16,23 +16,41 @@
             class="flex-container flex-colum flex-item centralize"
             style="
             width: 30vw; 
-            border: 1px solid rgba(51, 51, 51, 0.459);
             justify-content: space-arround;
             "
         >
-            <div class="flex-container flex-colum">
+            <div class="flex-container flex-colum borda-cinza centralize" style="width: 80%; padding: 3vw 1vw;">
                 <img style="width: 12vw; align-self: center;" src="assets/img/insta-logo.png" alt="">
-                <input style="width: 20vw;" type="email" name="email" id="email">
-                <input style="width: 20vw;" type="password" name="pass" id="pass">
-                <a href="#">Entrar</a>
-                <p class="ou">
-                    <hr/> ou <hr/>
-                </p>
-                <a href="#"><img style="width: 1.5vw;" src="assets/img/facebook-icon.png" alt="Icone Facebook">Entrar com Facebook</a>
-                <a href="#">Esqueceu a senha?</a>
+                <input 
+                    class="borda-cinza input-login" 
+                    style="margin-bottom: 10px;" 
+                    placeholder="Telefone, nome de usuário ou e-mail" 
+                    type="email" 
+                    name="email" 
+                    id="email">
+                <input 
+                    class="borda-cinza input-login" 
+                    placeholder="Senha" 
+                    type="password" 
+                    name="pass" 
+                    id="pass">
+                <button
+                    class="input-login"
+                    style="background-color: #0095f6;
+                            border: 1px solid transparent;
+                            margin-top: 10px;
+                            "
+                >
+                    Entrar
+                </button>
+                <div class="flex-container full-width" style="padding: 20px 0;">
+                    <div class="separador-ou"></div> <div style="padding: 0 20px;">ou</div> <div class="separador-ou"></div>
+                </div>
+                <a href="#" style="color: #385185"><img style="width: 1.3vw;" src="assets/img/facebook-icon.png" alt="Icone Facebook">Entrar com Facebook</a>
+                <a href="#" style="color: #294786">Esqueceu a senha?</a>
             </div>
-            <div class="div">
-                <p>Não tem conta? <a href="#">Cadastre-se</a></p>
+            <div class="div borda-cinza" style="width: 80%; padding: 1vw; margin-top: 1vw;">
+                <p>Não tem conta? <a href="#" style="color: #0095f6;">Cadastre-se</a></p>
             </div>
             <div class="flex-container flex-colum">
                 <p>Obtenha o aplicativo</p>
